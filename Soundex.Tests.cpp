@@ -96,8 +96,8 @@ TEST(SoudexTestSuite, ProcessesLowercaseAndUppercaseAlphabets) {
 TEST(SoudexTestSuite, IgnoresNonAlphabeticCharacters) {
   char soundex[5];
   
-  generateSoundex("MeeraSunu3103!", soundex);
-  ASSERT_STREQ(soundex,"M625");
+  generateSoundex("ArunJoy128!", soundex);
+  ASSERT_STREQ(soundex,"M620");
   generateSoundex("Van Dyke", soundex);
   ASSERT_STREQ(soundex,"V532");
 }
