@@ -1,0 +1,13 @@
+﻿Test Case ID,Test Name,Test Case Description,Input Conditions,Expected Result,Test Status,Remarks (if any)
+TC_01,Replace Consonants,Replace characters of the input string with their corresponding soundex encoding,ab,A100,NEW,
+TC_02,RetainsFirstCharacter,The first character of the input string is retained in the soundex,arun,A600,NEW,
+TC_03,All Vowels Removed,All vowels removed from the given string,Camera,C565,NEW,
+TC_04,Zero Padding,"If length less than 4, padded with zeros",abc,A120,NEW,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
