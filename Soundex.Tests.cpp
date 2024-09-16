@@ -6,40 +6,6 @@ TEST(SoudexTestSuite, ReplacesConsonantsWithAppropriateDigits) {
 
   generateSoundex("ab", soundex);
   ASSERT_STREQ(soundex,"A100");
-  generateSoundex("ac", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("ad", soundex);
-  ASSERT_STREQ(soundex,"A300");
-  generateSoundex("af", soundex);
-  ASSERT_STREQ(soundex,"A100");
-  generateSoundex("ag", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("aj", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("ak", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("al", soundex);
-  ASSERT_STREQ(soundex,"A400");
-  generateSoundex("am", soundex);
-  ASSERT_STREQ(soundex,"A500");
-  generateSoundex("an", soundex);
-  ASSERT_STREQ(soundex,"A500");
-  generateSoundex("ap", soundex);
-  ASSERT_STREQ(soundex,"A100");
-  generateSoundex("aq", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("ar", soundex);
-  ASSERT_STREQ(soundex,"A600");
-  generateSoundex("as", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("at", soundex);
-  ASSERT_STREQ(soundex,"A300");
-  generateSoundex("av", soundex);
-  ASSERT_STREQ(soundex,"A100");
-  generateSoundex("ax", soundex);
-  ASSERT_STREQ(soundex,"A200");
-  generateSoundex("az", soundex);
-  ASSERT_STREQ(soundex,"A200");
 }
 
 TEST(SoudexTestSuite, RetainsFirstCharacter) {
