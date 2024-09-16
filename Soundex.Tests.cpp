@@ -11,7 +11,7 @@ TEST(SoudexTestSuite, ReplacesConsonantsWithAppropriateDigits) {
 TEST(SoudexTestSuite, RetainsFirstCharacter) {
   char soundex[5];
   
-  generateSoundex("Meera", soundex);
+  generateSoundex("Arun", soundex);
   ASSERT_STREQ(soundex,"M600");
   generateSoundex("aeiouyhw", soundex);
   ASSERT_STREQ(soundex,"A000");
